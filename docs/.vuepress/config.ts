@@ -37,44 +37,46 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           {
             text: 'Java生态',
             items: [
-              { text: 'Java', link: '/pages/1/' },
-              { text: 'JVM虚拟机',link: '/pages/42/' },
-              { text: '数据结构与算法', link: '/pages/52/' },
+              { text: 'Java', link: '/pages/6fa37a/' },
+              { text: 'JVM虚拟机',link: '/pages/6c3f62/' },
+              { text: '数据结构与算法', link: '/pages/a75ff2/' },
             ],
           },
           {
             text: 'Spring生态',
             items: [
-              { text: 'Spring', link: '/pages/2/' },
-              { text: 'SpingBoot', link: '/pages/3/' },
+              { text: 'SSM', link: '/pages/2c90d5/' },
+              { text: 'SpingBoot', link: '/pages/f8fb99/' },
             ],
           },
           {
             text: '微服务',
             items: [
-              { text: 'Spring Cloud', link: '/pages/10/' },
-              { text: 'Spring Cloud alibaba', link: '/pages/11/' },
+              { text: 'Spring Cloud', link: '/pages/e611c5/' },
+              { text: 'Spring Cloud alibaba', link: '/pages/64512a/' },
             ],
           }, 
           {
             text: '分布式',
             items: [
-              { text: '分布式事务', link: '/pages/20/' },
-              { text: '分布式锁', link: '/pages/21/' },
-            ],
-          },
-          {
-            text: '中间件',
-            items: [
-              { text: '消息队列', link: '/pages/30/' },
-              { text: '搜索引擎', link: '/pages/31/' },
+              { text: '消息队列', link: '/pages/72a750/' },
+              { text: 'ELK', link: '/pages/49d03e/' },
+              { text: '分布式事务', link: '/pages/836384/' },
+              { text: '其他', link: '/pages/c81c50/' },
             ],
           },
           {
             text: '数据库',
             items: [
-              { text: '关系数据库', link: '/pages/40/' },
-              { text: 'NoSql', link: '/pages/41/' },
+              { text: '关系数据库', link: '/pages/5a5c11/' },
+              { text: 'NoSql', link: '/pages/68cf40/' },
+            ],
+          },
+          {
+            text: '项目管理',
+            items: [
+              { text: 'Git', link: '/pages/99adaf/' },
+              { text: 'Maven', link: '/pages/652a7a/' },
             ],
           },
         ],
@@ -99,20 +101,12 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         text: '运维',
         link: '/ops/',
         items: [
-          { text: '《Linux》', link: '/pages/1/' },
-          { text: '《Docker》', link: '/pages/2/' },
-          { text: '《Kubernetes》', link: '/pages/3/' },
-          { text: '《Nginx》', link: '/pages/4/' },
-          { text: '《Jenkins》', link: '/pages/5/' },
-          { text: '《Devops》', link: '/pages/6/' },
-        ],
-      },
-      {
-        text: '计算机基础',
-        link: '/base/',
-        items: [
-          { text: '计算机原理', link: '/pages/50/' },
-          { text: '计算机网络', link: '/pages/51/' },
+          { text: 'Linux', link: '/pages/40ab87/' },
+          { text: 'Docker容器', link: '/pages/0285ef/' },
+          { text: 'Kubernetes', link: '/pages/0dae81/' },
+          { text: 'Nginx', link: '/pages/f2c7b4/' },
+          { text: 'Jenkins', link: '/pages/0b6fe3/' },
+          { text: 'Devops', link: '/pages/9c1f28/' },
         ],
       },
       {
@@ -120,21 +114,22 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         link: '/business/',
         items: [
           {
-            text: '项目管理',
-            items: [
-              { text: 'Git', link: '/pages/1/' },
-              { text: 'maven', link: '/pages/2/' },
-            ],
-          },
-          {
             text: '项目实战',
             items: [
-              { text: '业务实战', link: '/pages/1/' },
-              { text: '云计算产品', link: '/pages/2/' },
-              { text: '开放对接', link: '/pages/3/' },
+              { text: '业务实战', link: '/pages/7af4eb/' },
+              { text: '云计算产品', link: '/pages/7212b9/' },
+              { text: '开放对接', link: '/pages/42a721/' },
             ],
           },
           
+        ],
+      },
+      {
+        text: '计算机基础',
+        link: '/base/',
+        items: [
+          { text: '计算机原理', link: '/pages/50d680/' },
+          { text: '计算机网络', link: '/pages/1a4b42/' },
         ],
       },
       {
@@ -173,7 +168,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     logo: '/img/sm10.jpg', // 导航栏logo
-    repo: 'xugaoyi/vuepress-theme-vdoing', // 导航栏右侧生成Github链接
+    repo: '17661977890/sm-blog', // 导航栏右侧生成Github链接
     searchMaxSuggestions: 10, // 搜索结果显示最大数
     lastUpdated: '上次更新', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
     docsDir: 'docs', // 编辑的文件夹
@@ -279,7 +274,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       'meta',
       {
         name: 'keywords',
-        content: '前端博客,个人技术博客,前端,前端开发,前端框架,web前端,前端面试题,技术文档,学习,面试,JavaScript,js,ES6,TypeScript,vue,python,css3,html5,Node,git,github,markdown',
+        content: '个人技术博客,后端,前端,开发,前后端框架,面试题,技术文档,学习,面试,Java,Spring,SpringCloud,Linux,Docker,JavaScript,js,ES6,TypeScript,vue,css3,html5,Node,git,github,markdown',
       },
     ],
     ['meta', { name: 'baidu-site-verification', content: '7F55weZDDc' }], // 百度统计的站长验证（你可以去掉）
