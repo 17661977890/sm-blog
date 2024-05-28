@@ -20,8 +20,9 @@
 <h2 align="center">sm-blog</h2>
 
 ## 介绍
-1. 本站基于vuepress和vuepress-theme-vdoing主题，主要在`vuepress-theme-vdoing`的基础上进行修改。
-2. 本站作为个人`知识管理工具` 和 `个性化博客`,以 Markdown 为中心的项目结构,`简洁高效`
+1. 本站基于`vuepress`,在`vuepress-theme-vdoing`知识库博客主题的基础上进行修改。
+2. 本站主要用于作为个人`知识管理工具` 和 `个性化博客`,以 Markdown 为中心的项目结构。
+3. 本站部分静态图片资源使用了 `picgo`+ `github图床` + `jsDelivr CDN加速`，方便灵活快速。
 
 ## 致谢
 :heart:感谢`vuepress-theme-vdoing`[知识库兼博客站](https://xugaoyi.com/)
