@@ -4,7 +4,8 @@
 set -e
 
 
-push_addr="https://github.com/17661977890/sm-blog.git" # 构建推送地址
+#push_addr="https://github.com/17661977890/sm-blog.git" # 构建推送地址
+push_addr=git@github.com:17661977890/sm-blog.git
 commit_info=`git describe --all --always --long`
 dist_path=docs/.vuepress/dist # 打包生成的文件夹路径
 push_branch=gh-pages # 推送的分支
