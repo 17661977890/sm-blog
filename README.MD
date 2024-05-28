@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://blog.ameilin.com/" target="_blank" rel="noopener noreferrer">
-  <img width="180" src="/img/sm10.jpg" alt="logo">
+  <img width="180" src="https://cdn.jsdelivr.net/gh/17661977890/picgo-file/sm10.jpg" alt="logo">
   </a>
 </p>
 
@@ -39,7 +39,7 @@
 
 | 微信赞赏 | 微信 |
 | :---: | :---: |
-| <img src="/img/admire.jpg" alt="赞赏码" width=150> | <img src="/img/pay.jpg" alt="Wechat QRcode" width=150>|
+| <img src="https://cdn.jsdelivr.net/gh/17661977890/picgo-file/admire.jpg" alt="赞赏码" width=150> | <img src="https://cdn.jsdelivr.net/gh/17661977890/picgo-file/pay.jpg" alt="Wechat QRcode" width=150>|
 
 
 ## 许可证
