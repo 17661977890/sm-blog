@@ -23,7 +23,10 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     }
   },
   // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
-  base: '/sm-blog/', 
+  // 部署到githubpages https://17661977890.github.io/sm-blog/则需要配置/sm-blog,
+  // 但是绑定个人域名后 blog.ameilin.com(二级子域名) 17661977890.github.io 不能配置base，配置资源都404样式全丢，因为githubpages的custom domain配置的就是blog.ameilin.com 就相当于17661977890.github.io/sm-blog/
+  // 所以这里在配置base 就会多一个sm-blog
+  // base: '/sm-blog/', 
 
   // 主题配置
   themeConfig: {
