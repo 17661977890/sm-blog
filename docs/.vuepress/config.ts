@@ -385,7 +385,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           clientSecret: '4f0c0ed2ba3771ed39cbd7ea8e1e5532d921e669',
           repo: 'blog-gitalk-comment', // GitHub 仓库
           owner: '17661977890', // GitHub仓库所有者
-          admin: ['1766977890'], // 对仓库有写权限的人
+          admin: ['17661977890'], // 对仓库有写权限的人
           // distractionFreeMode: true,
           pagerDirection: 'last', // 'first'正序 | 'last'倒序
           id: '<%- (frontmatter.permalink || frontmatter.to.path).slice(-16) %>', //  页面的唯一标识,长度不能超过50
