@@ -42,14 +42,14 @@
 * 3、npm run deploy # 执行部署脚本即可
 * 4、无个人域名
    * 配置github pages即可，如图所示：
-   https://cdn.jsdelivr.net/gh/17661977890/picgo-file/5ab2e407ddffe0eb52a69e1f01351cbd.png
+      * https://cdn.jsdelivr.net/gh/17661977890/picgo-file/5ab2e407ddffe0eb52a69e1f01351cbd.png
    * 项目中 config.ts 中的 base配置此时为 /sm-blog/
    * 此时访问 176619977890.githup.io/sm-blog/ 接口
-5、有个人域名
-  * 在云平台配置域名解析
-  https://cdn.jsdelivr.net/gh/17661977890/picgo-file/198f7035b9dea1876e521e8a75a5686c.png
-  * 在github pages中配置 custome domain
-  https://cdn.jsdelivr.net/gh/17661977890/picgo-file/20240530115121.png
+* 5、有个人域名
+  * 在云平台配置域名解析，如图所示：
+    * https://cdn.jsdelivr.net/gh/17661977890/picgo-file/198f7035b9dea1876e521e8a75a5686c.png
+  * 在github pages中配置 custome domain，如图所示：
+    * https://cdn.jsdelivr.net/gh/17661977890/picgo-file/20240530115121.png
   * 注意: 此时需要注释掉项目中 config.ts 中的 base配置 -----> 为什么？ 下面会说明
   * 此时访问 https://blog.ameilin.com/ 即可
 
