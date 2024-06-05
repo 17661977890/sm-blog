@@ -255,7 +255,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     footer: {
       createYear: 2024, // 博客创建年份
       copyrightInfo:
-        'Bin Sun | <a href="https://github.com/17661977890/sm-blog/blob/main/LICENSE" target="_blank">MIT License</a>', // 博客版权信息、备案信息等，支持a标签或换行标签</br>
+        'Bin Sun | <a href="https://github.com/17661977890/sm-blog/blob/main/LICENSE" target="_blank">MIT License</a> ｜ <a href="https://beian.miit.gov.cn" target="_blank">苏ICP备2024096492号</a>', // 博客版权信息、备案信息等，支持a标签或换行标签</br>
     },
 
     // 扩展自动生成frontmatter。（当md文件的frontmatter不存在相应的字段时将自动添加。不会覆盖已有的数据。）
@@ -381,11 +381,11 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       {
         choosen: 'gitalk',
         options: {
-          clientID: 'a6e1355287947096b88b',
-          clientSecret: 'f0e77d070fabfcd5af95bebb82b2d574d7248d71',
+          clientID: 'Ov23liemOhrnuL1JS1e5',
+          clientSecret: '4f0c0ed2ba3771ed39cbd7ea8e1e5532d921e669',
           repo: 'blog-gitalk-comment', // GitHub 仓库
-          owner: 'xugaoyi', // GitHub仓库所有者
-          admin: ['xugaoyi'], // 对仓库有写权限的人
+          owner: '17661977890', // GitHub仓库所有者
+          admin: ['1766977890'], // 对仓库有写权限的人
           // distractionFreeMode: true,
           pagerDirection: 'last', // 'first'正序 | 'last'倒序
           id: '<%- (frontmatter.permalink || frontmatter.to.path).slice(-16) %>', //  页面的唯一标识,长度不能超过50
