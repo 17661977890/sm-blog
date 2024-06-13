@@ -255,7 +255,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     footer: {
       createYear: 2024, // 博客创建年份
       copyrightInfo:
-        'Bin Sun | <a href="https://github.com/17661977890/sm-blog/blob/main/LICENSE" target="_blank">MIT License</a> ｜ <a href="https://beian.miit.gov.cn" target="_blank">苏ICP备2024096492号</a>', // 博客版权信息、备案信息等，支持a标签或换行标签</br>
+        'Bin Sun | <a href="https://github.com/17661977890/sm-blog/blob/main/LICENSE" target="_blank">MIT License</a> ｜<img src="/img/beian-icon.png" style="width:15px; height:15px"/> <a href="https://beian.mps.gov.cn/#/query/webSearch?code=32021402002768" rel="noreferrer" target="_blank">苏公网安备32021402002768</a>｜ <a href="https://beian.miit.gov.cn" target="_blank">苏ICP备2024096492号</a>', // 博客版权信息、备案信息等，支持a标签或换行标签</br>
     },
 
     // 扩展自动生成frontmatter。（当md文件的frontmatter不存在相应的字段时将自动添加。不会覆盖已有的数据。）
